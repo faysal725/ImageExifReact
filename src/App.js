@@ -1,25 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
 
+import Exif from './Components/Load/Exif';
+import Insert from './Components/Insert/Insert';
+
 function App() {
+
+
+
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{paddingTop:"200px"}} className="container">
+    <div className="d-flex row text-white">
+      {/* <Insert></Insert> */}
+      {/* <Exif></Exif> */}
+    </div>
+    
     </div>
   );
 }
 
 export default App;
+    import Uploade from './Components/Firebase/Uploade';
+
